@@ -6,18 +6,18 @@
     android:padding="12dp"
     android:orientation="vertical">
 
+    <!-- 🔵 Tombol RESET -->
     <Button
         android:id="@+id/buttonTop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Toast"
+        android:text="Reset"
         android:backgroundTint="#6200EE"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        android:onClick="showToast"
-        />
+        android:onClick="resetCount" />
 
-
+    <!-- 🧮 Teks Angka -->
     <TextView
         android:id="@+id/myTextView"
         android:layout_width="match_parent"
@@ -33,15 +33,26 @@
         android:textSize="300sp"
         android:textStyle="bold" />
 
+    <!-- 🟣 Tombol Tambah -->
     <Button
         android:id="@+id/buttonBottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Tambah"
         android:backgroundTint="#6200EE"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        android:onClick="countUp"
-        />
+        android:onClick="countUp" />
+
+    <!-- 🔻 Tombol Kurangi -->
+    <Button
+        android:id="@+id/buttonDown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kurangi"
+        android:backgroundTint="#3700B3"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="countDown" />
 
 </LinearLayout>

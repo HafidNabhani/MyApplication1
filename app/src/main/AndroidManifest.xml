@@ -8,12 +8,12 @@
 
         <!-- Activity biasa (hanya bisa dipanggil dari dalam app) -->
         <activity
-            android:name=".MainActivity"
+            android:name=".SecondActivity2"
             android:exported="false" />
 
         <!-- Activity utama (launcher) -->
         <activity
-            android:name=".SecondActivity2"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <!-- action MAIN = titik masuk aplikasi -->
